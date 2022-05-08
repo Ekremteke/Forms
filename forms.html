@@ -5,13 +5,23 @@
     </head>
     <body>
         <h1>Member Registiration Form:</h1>
-        <form name="registiration" action="registiration.php" method="get">
+        <form name="registiration" action="registiration.php" 
+        method="get">
             Name: <input type="text" name="name" id="idname"
             size="20" maxlength="30" required>
             <br>
+            E-mail: <input type="email" name="email" id="idemail" 
+            required>
             <br>
+            Web-Site: <input type="url" name="address" 
+            id="idaddress">
+            <br>
+            Age: <input type="number" name="age" id="idage">
+            <br>
+            <br>
+            
          <input type="submit" value="Submit">
-         <input type="reset" value="Delete"
+         <input type="reset" value="Delete">
         </form>
     </body>
 </html>
